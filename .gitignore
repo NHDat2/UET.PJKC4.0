@@ -1,0 +1,58 @@
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# ignore composer vendor directory
+/vendor
+
+# ignore components loaded via Bower
+/bower_components
+
+# ignore jekyll build directory
+/_site
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore private/secret files
+*.der
+*.key
+*.pem
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+*.pyc
+*/__pycache__
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.env.dev
+!.env.prod
+*.bin
+.so
+*.pt
+.idea
+IE/__pycache__
+helper/__pycache__
